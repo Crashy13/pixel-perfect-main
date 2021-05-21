@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background: #F4F4F4
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+h1 {
+  text-align: center;
+  font-family: Oswald;
+  font-weight: 500;
+  font-size: 19px;
+  padding-top: 19px;
+  color: #4C4C4C;
+}
+
+time {
+  font-family: Lato;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  margin-left: 29px;
+  bottom: 240px;
+}
+
+.header-elements {
+  border-bottom: 1px solid #E7E7E7;
+  height: 46px;
+}
+
+.article-content {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  height: 920px;
+  width: 750px;
+  margin: 50px 0 0 150px;
+  background: #FFFFFF;
+}
+
+.article-content img{
+  width: 750px;
+  height: 472px;
+  border: 1px solid red;
+}
+
+.article-header {
+  text-align: center;
+  color: #D3754F;
+  font-size: 8pt;
+  font-family: Lato;
+  letter-spacing: 1px;
+  margin-top: 45px;
+  font-weight: bold;
+}
+
+.article-title {
+  text-align: center;
+  color: #444444;
+  font-family: Oswald;
+  font-size: 18pt;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+.article-paragraph {
+  text-align: justify;
+  color: #444444;
+  margin: 0 40px 40px 40px;
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 11pt;
+  line-height: 1.8;
+}
+
+.article-button {
+  position: relative;
+  width: 172px;
+  height: 38px;
+  padding: 10px;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin: 30px auto 68px auto;
+  bottom: 38px;
+  color: #C5583A;
+  border: 1px solid #C5583A;
+  background: #FFFFFF;
+}
+
+hr {
+  position: relative;
+  width: 89%;
+  color: #E2E2E2;
+  bottom: 75px;
+  opacity: 50%;
+}
+
+.article-byline {
+  position: absolute;
+  border: 1px solid red;
+  margin: 855px 0 0 39px;
+  font-family: Lato;
+  font-weight: 400;
+  font-style: italic;
+  font-size:10pt;
+  letter-spacing: .3px;
+  opacity: 50%;
+}
+
+.article-social {
+  display: flex;
+  height: 20px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 0 39px 0 0;
+}
+
+.article-icon {
+  flex: 1;
+  display: inline;
+}
+
+.about-me {
+  position: absolute;
+  border: 1px solid blue;
+  height: 510px;
+  width: 361px;
+  top: 112px;
+  right: 148px;
+}
+
+.about-me img {
+  width: 361px;
+  height: 183px;
+  border: 1px solid purple;
+}
+
+.popular-posts {
+  position: absolute;
+  border: 1px solid blue;
+  height: 983px;
+  width: 360px;
+  top: 660px;
+  right: 148px;
+}
+
+.popular-posts-images {
+  position: relative;
+  width: 301px;
+  height: 200px;
+  border: 1px solid rebeccapurple;
+  margin: 0 auto;
+}
+
+.popular-posts-images:nth-child(1n) {
+  position: relative;
+  margin-top: 27px;
+  margin-bottom: 16px;
+}
+
+.popular-posts-titles {
+  font-family: Oswald;
+  margin-left: 29px;
+  font-size: 12pt;
+  font-weight: 400;
+  margin-bottom: 13px;
+  letter-spacing: -.1px;
+}
+
+.latest-posts {
+  position: absolute;
+  border: 1px solid blue;
+  height: 516px;
+  width: 362px;
+  top: 1680px;
+  right: 148px;
+}
+
+.instagram-feed {
+  position: absolute;
+  border: 1px solid blue;
+  height: 596px;
+  width: 361px;
+  top: 2237px;
+  right: 148px;
+}
+
+.photos {
+  height: 191px;
+  border-top: 1px solid black;
+  margin-top: 78px;
+}
+
+.tag {
+  border-top: 1px solid black;
+  height: 65px;
+}
