@@ -41,7 +41,7 @@ time {
 .article-content {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  border: 1px solid #E7E7E7;
   height: 920px;
   width: 750px;
   margin: 50px 0 0 150px;
@@ -51,7 +51,6 @@ time {
 .article-content img{
   width: 750px;
   height: 472px;
-  border: 1px solid red;
 }
 
 .article-header {
@@ -88,7 +87,7 @@ time {
   position: relative;
   width: 172px;
   height: 38px;
-  padding: 10px;
+  padding: 12px;
   font-family: Lato;
   font-weight: 700;
   font-size: 12px;
@@ -129,8 +128,8 @@ hr {
 }
 
 .article-icon {
-  flex: 1;
   display: inline;
+  opacity: 33%;
 }
 
 .about-me {
@@ -199,6 +198,8 @@ hr {
 }
 
 .photos {
+  display: flex;
+  flex-direction: row;
   height: 191px;
   border-top: 1px solid black;
   margin-top: 78px;
@@ -207,4 +208,15 @@ hr {
 .tag {
   border-top: 1px solid black;
   height: 65px;
+  background-color: #222222;
+}
+
+.tag > p {
+  color: #888888;
+  text-align: center;
+  font-family: Playfair+Display;
+  font-weight: lighter;
+  font-size: 14px;
+  margin: 22px 0 0 0;
+
 }
