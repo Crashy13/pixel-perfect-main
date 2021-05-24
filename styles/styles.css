@@ -263,12 +263,20 @@ hr {
 }
 
 .instagram-feed {
+  display: inline-flex;
   position: absolute;
   border: 1px solid blue;
   height: 596px;
   width: 361px;
   top: 2237px;
   right: 148px;
+  flex-wrap: wrap;
+}
+.instagram-photos {
+  height: 153px;
+  width: 146px;
+  align-content: space-around;
+  margin: 60px 0;
 }
 
 .photo-section {
